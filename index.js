@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const config = require('config')
 
 app.get('/', (req, res)=>{
-    res.send('CI/CD App, Works well !')
+    res.send('CI/CD App, Works well!')
 })
 
 app.get('/status', (req, res)=>{
@@ -14,7 +14,7 @@ app.get('/status', (req, res)=>{
 
 app.get('/hello',(req, res)=>{
     res.status(200)
-    res.send('Hello and Welcome to my page!')
+    res.send('Hello and Welcome to my page!!!')
 
 })
 
